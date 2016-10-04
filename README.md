@@ -2,15 +2,15 @@
 
 ### How to build the Gluon based Freifunk Ilmenau Firmware
 
-    git clone git://github.com/freifunk-gluon/gluon.git            # Get the official Gluon repository
+    git clone git://github.com/freifunk-gluon/gluon.git                # Get the official Gluon repository
     cd gluon
-    git checkout v201x.x                                           # Switch to Gluon release if not master (see below)
-    git clone git://github.com/bobcanthelpyou/site-ffil.git site   # Get the Freifunk Ilmenau site repository
+    git checkout v201x.x                                               # Switch to Gluon release if not master (see below)
+    git clone https://github.com/freifunk-ilmenau/site-ffil.git site   # Get the Freifunk Ilmenau site repository
     cd site
-    git checkout v201x.x                                           # Switch to site config release if not master (see below or tags)
+    git checkout v201x.x                                               # Switch to site config release if not master (see below or tags)
     cd ..
-    make update                                                    # Get other repositories used by Gluon
-    make GLUON_TARGET=target                                       # Build Gluon for a target
+    make update                                                        # Get other repositories used by Gluon
+    make GLUON_TARGET=target                                           # Build Gluon for a target
 
 #### Targets
 
