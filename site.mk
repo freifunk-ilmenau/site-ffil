@@ -30,7 +30,7 @@ DEFAULT_GLUON_RELEASE := 1.3.5-ffil-$(shell date '+%Y%m%d')
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
-GLUON_PRIORITY ?= 0
+GLUON_PRIORITY ?= 15
 
 GLUON_LANGS ?= de en
 
