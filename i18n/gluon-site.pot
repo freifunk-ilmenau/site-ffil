@@ -7,8 +7,17 @@ msgstr ""
 msgid "gluon-config-mode:pubkey"
 msgstr ""
 
+msgid "gluon-config-mode:novpn"
+msgstr ""
+
 msgid "gluon-config-mode:reboot"
 msgstr ""
 
-msgid "gluon-luci-node-role:role:node"
+msgid "gluon-config-mode:altitude-label"
+msgstr ""
+
+msgid "gluon-config-mode:altitude-help"
+msgstr ""
+
+msgid "gluon-web-node-role:role:node"
 msgstr ""
