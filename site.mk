@@ -1,31 +1,24 @@
+GLUON_FEATURES := \
+	alfred \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	mesh-batman-adv-14 \
+	mesh-vpn-fastd \
+	radvd \
+	respondd \
+	status-page \
+	web-advanced \
+	web-node-role \
+	web-wizard
+
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-14 \
-	gluon-alfred \
-	gluon-autoupdater \
-	gluon-core \
-	gluon-config-mode-hostname \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-mesh-vpn \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-core \
-	gluon-config-mode-contact-info \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-web-admin \
-	gluon-web-autoupdater \
-	gluon-web-network \
-	gluon-web-node-role \
-	gluon-web-wifi-config \
-	gluon-mesh-vpn-fastd \
-	gluon-radvd \
-	gluon-respondd \
-	gluon-setup-mode \
-	gluon-status-page \
-	iwinfo \
 	iptables \
+	iwinfo \
 	haveged
 
-DEFAULT_GLUON_RELEASE := 1.4.8-ffil~$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 2018.1.1.0-ffil~$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
