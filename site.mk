@@ -1,5 +1,4 @@
 GLUON_FEATURES := \
-	alfred \
 	autoupdater \
 	ebtables-filter-multicast \
 	ebtables-filter-ra-dhcp \
