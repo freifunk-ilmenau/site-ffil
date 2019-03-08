@@ -85,6 +85,3 @@ msgstr ""
 
 msgid "gluon-config-mode:contact-note"
 msgstr ""
-
-msgid "gluon-web-node-role:role:node"
-msgstr "Freifunk Ilmenau Knoten"

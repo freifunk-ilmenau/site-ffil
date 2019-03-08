@@ -9,7 +9,6 @@ GLUON_FEATURES := \
 	respondd \
 	status-page \
 	web-advanced \
-	web-node-role \
 	web-wizard
 
 GLUON_SITE_PACKAGES := \
