@@ -5,7 +5,7 @@
 # Get the official Gluon repository and switch to a Gluon release
 git clone -b v201x.y.z git://github.com/freifunk-gluon/gluon.git
 # Get the Freifunk Ilmenau site repository and switch to site config release
-git clone -b 201x.y.z https://github.com/freifunk-ilmenau/site-ffil.git gluon/site
+git clone -b v201x.y.z https://github.com/freifunk-ilmenau/site-ffil.git gluon/site
 
 cd gluon
 # Get other repositories used by Gluon
