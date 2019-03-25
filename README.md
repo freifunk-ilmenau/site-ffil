@@ -22,7 +22,7 @@ To see a complete list of supported targets, call
 
 without setting GLUON_TARGET.
 
-For further informations about supported hardware and targets please see [Supported Devices & Architectures ](http://gluon.readthedocs.io/en/latest/index.html#supported-devices-architectures) in the official Gluon documentation.
+For further information about supported hardware and targets please see [Supported Devices & Architectures ](http://gluon.readthedocs.io/en/latest/index.html#supported-devices-architectures) in the official Gluon documentation.
 
 #### Example
 ```
@@ -33,9 +33,9 @@ make update
 make GLUON_TARGET=ar71xx-generic
 ```
 
-#### Additional informations
+#### Gluon documentation
 
-Please see [the official Gluon documentation](http://gluon.readthedocs.io/en/latest/user/getting_started.html) for a detailed explanation of the build process. You can also consult [the official Gluon repository](https://github.com/freifunk-gluon/gluon) for additional informations.
+Please see [the official Gluon documentation](http://gluon.readthedocs.io/en/latest/user/getting_started.html) for a detailed explanation of the build process. You can also consult [the official Gluon repository](https://github.com/freifunk-gluon/gluon) for additional information.
 
 ### Gluon releases used for specific Freifunk Ilmenau Firmware builds
 
