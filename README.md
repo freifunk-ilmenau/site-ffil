@@ -26,8 +26,8 @@ For further information about supported hardware and targets please see [Support
 
 #### Example
 ```
-git clone -b v2018.1.1 git://github.com/freifunk-gluon/gluon.git
-git clone -b v2018.1.1 https://github.com/freifunk-ilmenau/site-ffil.git gluon/site
+git clone -b v2018.1.4 git://github.com/freifunk-gluon/gluon.git
+git clone -b v2018.1.4 https://github.com/freifunk-ilmenau/site-ffil.git gluon/site
 cd gluon
 make update
 make GLUON_TARGET=ar71xx-generic
