@@ -26,8 +26,8 @@ For further information about supported hardware and targets please see [Support
 
 #### Example
 ```
-git clone -b v2018.1.4 git://github.com/freifunk-gluon/gluon.git
-git clone -b v2018.1.4 https://github.com/freifunk-ilmenau/site-ffil.git gluon/site
+git clone -b v2018.2.1 git://github.com/freifunk-gluon/gluon.git
+git clone -b v2018.2.1 https://github.com/freifunk-ilmenau/site-ffil.git gluon/site
 cd gluon
 make update
 make GLUON_TARGET=ar71xx-generic
@@ -39,6 +39,7 @@ Please see [the official Gluon documentation](http://gluon.readthedocs.io/en/lat
 
 ### Gluon releases used for specific Freifunk Ilmenau Firmware builds
 
+- 2018.2.x: v2018.2.x
 - 2018.1.x: v2018.1.x
 - 1.4.x: v2017.1.x
 - 1.3.x: v2016.2.x
