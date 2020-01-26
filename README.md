@@ -39,6 +39,7 @@ Please see [the official Gluon documentation](http://gluon.readthedocs.io/en/lat
 
 ### Gluon releases used for specific Freifunk Ilmenau Firmware builds
 
+- 2019.1.x: v2019.1.x
 - 2018.2.x: v2018.2.x
 - 2018.1.x: v2018.1.x
 - 1.4.x: v2017.1.x
