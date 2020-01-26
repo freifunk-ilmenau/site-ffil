@@ -1,7 +1,7 @@
 # Freifunk Ilmenau - Firmware builds
 
 ### How to build the Gluon based Freifunk Ilmenau Firmware
-a```
+```
 # Get the official Gluon repository and switch to a Gluon release
 git clone -b v201x.y.z git://github.com/freifunk-gluon/gluon.git
 # Get the Freifunk Ilmenau site repository and switch to site config release
